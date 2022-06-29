@@ -34,7 +34,7 @@ async function tips(ckArr) {
 	let Version = `\n📌 本地脚本: V 1.0.0  远程仓库脚本: V ${Version_latest}`
 	DoubleLog(`${Version}\n📌 🆙 更新内容: ${Change}`);
 	DoubleLog(`${thank}`);
-	await wyy();
+	await Motto();
 	DoubleLog(`\n========== 共找到 ${ckArr.length} 个账号 ==========`);
 	debugLog(`【debug】 这是你的账号数组:\n ${ckArr}`);
 }
