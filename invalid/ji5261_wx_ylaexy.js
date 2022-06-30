@@ -9,7 +9,6 @@
  * 变量格式: export ylaexy_data='unionId&openId'  多个账号用 @ 或者 换行分割
  * 正常登录后进入小程序首页~右下角点开领惊喜，抓url https://bmbs.dixinfs.com/bus-service/login 请求body中unionId和openId的值填入变量
  * 每天运行一次即可，cron 40 6 * * *
- 
  */
 
 const $ = new Env("伊利爱儿学院");
